@@ -2,11 +2,22 @@
 *,body,html{font-family: 'Roboto', sans-serif;scroll-behavior: smooth;}
 .fluid-logo{position: fixed; top: 12px; left: 20px;}
 .height-100vh{height: 100vh;}
-.br-10{border-radius: 10px;}
-.font-13{font-size: 13px;}.font-25{font-size: 25px;}
+.br-10{border-radius: 12px;}
+.font-13{font-size: 13px;}.font-18{font-size: 18px;}.font-25{font-size: 25px;}
 .heading{color: #128141;font-size: 25px;font-weight: bold;}
 .text-success{color: #128141 !important;}
 .top-0{top: 0;}
 .position-sticky{position: sticky;}
 .border-left{border-left: 1px solid #128141 !important;}
 .variable-width .slick-list{padding: 0px 60px 0px 10px !important;}
+.text-decoration-line-through{text-decoration: line-through;}
+/*accordian*/
+.acc .card-header{padding: 0px;}
+.card-header .btn{margin: 0;}
+#main #faq .card .card-header .btn-header-link {color: #fff;display: block;text-align: left;background: #ccc;color: #222;}
+#main #faq .card .card-header .btn-header-link:after {content: "\f107";font-family: 'Font Awesome 5 Free';font-weight: 900;float: right;}
+#main #faq .card .card-header .btn-header-link.collapsed {background: #ccc;color: #000;}
+#main #faq .card .card-header .btn-header-link.collapsed:after {content: "\f106";}
+#main #faq .card .collapsing {background: #e0e0de;line-height: 30px;}
+#main #faq .card .collapse {border: 0;}
+#main #faq .card .collapse.show {background: #e0e0de;line-height: 30px;color: #222;}
