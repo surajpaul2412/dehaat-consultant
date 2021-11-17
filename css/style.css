@@ -3,7 +3,7 @@
 .fluid-logo{position: fixed; top: 12px; left: 20px;}
 .height-100vh{height: 100vh;}
 .br-10{border-radius: 12px;}
-.font-13{font-size: 13px;}.font-18{font-size: 18px;}.font-25{font-size: 25px;}
+.font-13{font-size: 13px;}.font-16{font-size: 16px;}.font-18{font-size: 18px;}.font-25{font-size: 25px;}
 .heading{color: #128141;font-size: 25px;font-weight: bold;}
 .text-success{color: #128141 !important;}
 .top-0{top: 0;}
@@ -14,10 +14,10 @@
 /*accordian*/
 .acc .card-header{padding: 0px;}
 .card-header .btn{margin: 0;}
-#main #faq .card .card-header .btn-header-link {color: #fff;display: block;text-align: left;background: #ccc;color: #222;}
+#main #faq .card .card-header .btn-header-link {color: #fff;display: block;text-align: left;background: #fff;color: #222;}
 #main #faq .card .card-header .btn-header-link:after {content: "\f107";font-family: 'Font Awesome 5 Free';font-weight: 900;float: right;}
-#main #faq .card .card-header .btn-header-link.collapsed {background: #ccc;color: #000;}
+#main #faq .card .card-header .btn-header-link.collapsed {background: #fff;color: #000;}
 #main #faq .card .card-header .btn-header-link.collapsed:after {content: "\f106";}
-#main #faq .card .collapsing {background: #e0e0de;line-height: 30px;}
+#main #faq .card .collapsing {background: #fff;line-height: 30px;}
 #main #faq .card .collapse {border: 0;}
-#main #faq .card .collapse.show {background: #e0e0de;line-height: 30px;color: #222;}
+#main #faq .card .collapse.show {background: #fff;line-height: 30px;color: #222;}
