@@ -11,6 +11,7 @@
 .border-left{border-left: 1px solid #128141 !important;}
 .variable-width .slick-list{padding: 0px 60px 0px 10px !important;}
 .text-decoration-line-through{text-decoration: line-through;}
+.card-body{padding: 1rem 2rem;}
 /*accordian*/
 .acc .card-header{padding: 0px;}
 .card-header .btn{margin: 0;}
